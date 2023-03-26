@@ -1,7 +1,3 @@
-#重複のない文字列
-#ある文字列が、全て固有である（重複する文字がない）かどうかを判別するアルゴリズムを実装してください。
-#また、それを実装するのに新たなデータ構造が使えない場合、どのようにすればよいですか？
-
 def is_unique_chars_no_data_structure(string):
     checker = 0
 
@@ -19,4 +15,3 @@ print(is_unique_chars_no_data_structure(test_string))  # True
 
 test_string = "abcdeafgh"
 print(is_unique_chars_no_data_structure(test_string))  # False
-
