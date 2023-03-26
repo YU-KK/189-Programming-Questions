@@ -1,6 +1,3 @@
-#順列チェック
-#2つの文字列が与えられた時、片方がもう片方の並び替えになっているかどうかを決定するもそっどを書いてください。
-
 def is_permutation(str1, str2):
     if len(str1) != len(str2):
         return False
